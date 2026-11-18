@@ -33,7 +33,7 @@ reporting for 18 November 2026. Verification notes live beside the build
 (default `/output`). No network, no fonts, no third-party packages — it runs
 in a stock `python:3.13` image as `python3 -P -s main.py`.
 
-`copy.py` is the readable source that `makefun compress` packed into
+`copy_entry.py` is the readable source that `makefun compress` packed into
 `main.py`; the two are byte-identical in behaviour.
 
 ## Build
